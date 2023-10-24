@@ -1,7 +1,6 @@
 # BDExerc011
 ## SQLMaternidade
-### Criar, em SQL Server, considerando o domínio de uma Maternidade, implementado na aula
-passada, conforme modelado:
+### Criar, em SQL Server, considerando o domínio de uma Maternidade, implementado na aula passada, conforme modelado:
 
 ![image](https://github.com/Matheus-Franca-x/BDExerc011/assets/99504777/bd46c865-9e50-4530-8db4-6f58f6e8f7ee)
 
