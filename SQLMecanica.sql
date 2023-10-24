@@ -57,7 +57,7 @@ CREATE TABLE funcionario
 	nome						VARCHAR(100)		NOT NULL,
 	logradouro_end					VARCHAR(200)		NOT NULL,
 	numero_end					INT			NOT NULL CHECK(numero_end >= 0),
-	telefone					CHAR(11)		NOT NULL CHECK(telefone = 10 OR telefone = 11),
+	telefone					CHAR(11)		NOT NULL CHECK(LEN(telefone) = 10 OR LEN(telefone) = 11),
 	categoria_habilitacao				VARCHAR(2)		NOT NULL CHECK(categoria_habilitacao IN('A', 'B', 'C', 'D', 'E')),
 	id_categoria					INT			NOT NULL
 	PRIMARY KEY (id_funcionario)
