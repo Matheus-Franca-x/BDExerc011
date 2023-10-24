@@ -84,5 +84,5 @@ CREATE TABLE reparo
 	PRIMARY KEY (placa, id_funcionario, id_peca, data_reparo)
 	FOREIGN KEY (placa) REFERENCES veiculo (placa),
 	FOREIGN KEY (id_funcionario) REFERENCES funcionario (id_funcionario),
-	FOREIGN	KEY	(id_peca) REFERENCES peca (id_peca)
+	FOREIGN	KEY (id_peca) REFERENCES peca (id_peca)
 )
